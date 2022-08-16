@@ -1,0 +1,28 @@
+{
+  "name": "dynastydraftviewer",
+  "version": "1.0.0",
+  "description": "using the Sleeper Fantasy API for a Sleeper Fantasy League to show highlights of players drafted as they are drafted, so it feels more like an NFL Draft.\r Here is a link to the Sleeper API: https://docs.sleeper.app/\r We use this to get information from our league in the form of JSON (Think of it as just a set of data)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araju8844/dynastyDraftViewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/araju8844/dynastyDraftViewer/issues"
+  },
+  "homepage": "https://github.com/araju8844/dynastyDraftViewer#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fetch": "^1.1.0",
+    "node-fetch": "^3.2.10",
+    "xhr2": "^0.2.1"
+  }
+}
